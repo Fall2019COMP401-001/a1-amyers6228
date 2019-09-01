@@ -33,7 +33,10 @@ public class A1Jedi {
 				for (int k = 0; k < storeItems.length; k++) {
 					if (storeItems[k].equals(itemBought)) {
 						if (customersBought[k] <= i) {
-						customersBought[k] = 1 + customersBought[k];
+							customersBought[k] = 1 + customersBought[k];
+							if (customersBought[k] == 3) {
+								customersBought[k] = 1;
+							}
 						}
 						storeItemsAmountBought[k] = amountBought + storeItemsAmountBought[k];
 					}
