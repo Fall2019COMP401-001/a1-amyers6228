@@ -8,6 +8,5 @@ public class A1Adept {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		
 	}
 }
