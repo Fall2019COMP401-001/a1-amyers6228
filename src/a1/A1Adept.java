@@ -8,7 +8,9 @@ public class A1Adept {
 		
 		Scanner scan = new Scanner(System.in);
 
-		// Your code follows here.
+		for (i = 0; i < scan; i++) {
+			System.out.println()
+		}
 		
 	}
 }
