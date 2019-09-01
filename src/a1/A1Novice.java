@@ -3,7 +3,6 @@ package a1;
 import java.util.Scanner;
 
 public class A1Novice {
-
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -26,7 +25,7 @@ public class A1Novice {
 				total = total + subtotal;
 				
 			}
-			System.out.println(first + ". " + last + ": " + total);
+			System.out.println(first + ". " + last + ": " + String.format("%.2f",  total));
 		}
 	}
 }
